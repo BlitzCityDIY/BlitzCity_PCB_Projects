@@ -5,7 +5,7 @@ A PCB that allows for soldering wires to an Arcade Pocket Operator to control it
 Software is written in CircuitPython. To fetch library dependencies, use [circup](https://github.com/adafruit/circup) for up to date drivers:
 
 ```
-	circup install --auto
+circup install --auto
 ```
 
 Video on [YouTube](https://youtu.be/rWI4uk4NKmI) and [MakerTube](https://makertube.net/w/aB3CWZV8WkvQvXox8JMsBX)
