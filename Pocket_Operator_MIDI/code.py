@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: Copyright (c) 2025 Liz Clark
+#
+# SPDX-License-Identifier: MIT
 import board
 import digitalio
 import time
