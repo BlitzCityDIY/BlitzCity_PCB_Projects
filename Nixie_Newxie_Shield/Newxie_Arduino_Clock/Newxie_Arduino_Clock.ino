@@ -40,7 +40,7 @@ Adafruit_ST7789  ST7789_0(11, 12, TFT_RST);
 
 void setup() {
   Serial.begin(115200);
-  while ( !Serial ) delay(10);
+  //while ( !Serial ) delay(10);
 
   // Connect to WiFi
   Serial.println();
