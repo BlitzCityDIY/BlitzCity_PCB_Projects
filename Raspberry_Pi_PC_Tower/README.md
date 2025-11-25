@@ -20,3 +20,6 @@ Insert the `tftdisplay.service` file in this repo. Enable the service with:
 ```terminal
 sudo systemctl enable tftdisplay.service
 ```
+
+### External Links
+* [Printables Download](https://www.printables.com/model/1493532-raspberry-pi-pc-tower)
