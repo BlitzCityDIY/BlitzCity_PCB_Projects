@@ -1,0 +1,12 @@
+[Unit]
+Description=TFT Display Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/env/bin/python3 /home/pi/pi_pc.py
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
