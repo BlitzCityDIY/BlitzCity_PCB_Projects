@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "encLibrary") (type "KiCad") (uri "C:/Users/Liz/Documents/encoder/encLibrary.pretty") (options "") (descr ""))
+)

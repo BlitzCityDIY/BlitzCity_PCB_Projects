@@ -1,0 +1,190 @@
+(footprint "EC35A1520402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "35mm Size Ring Type")
+	(tags "encoder, rotary encoder")
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0bef9b10-3a88-4cfe-85fa-3b0ffe817337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8d9e550-e344-4b35-82c0-9288bed69d7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EC35A1520402"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "802c9d22-a687-406a-b104-214b0365d24f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "17c1cac9-15b4-4557-b428-ff8544d33e5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 11.85 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ad88e290-4874-432b-a5a2-9aaea2384ce3")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 17.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1fcaefd4-f342-4f80-ab7f-24afcf564997")
+	)
+	(fp_circle
+		(center -14.7 0)
+		(end -13.4 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "dc426bb7-63ec-456d-8041-366889f86049")
+	)
+	(fp_circle
+		(center 0 -14.7)
+		(end 0.8 -14.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "6478b7fd-4f6f-4ba3-a04d-a2e5589ec2f1")
+	)
+	(fp_circle
+		(center 0 14.7)
+		(end 0.8 14.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "99146e80-1373-44dd-86a5-8f0c1c097f0d")
+	)
+	(fp_circle
+		(center 14.7 0)
+		(end 16 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "111abc8b-2b37-4a8f-9840-76def8e9387c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1d478d4d-c466-4b18-b1c4-773e1e93e7fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A" thru_hole circle
+		(at -2.5 18.5)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3479a615-db65-4fc8-8a39-9536d45efb7f")
+	)
+	(pad "B" thru_hole circle
+		(at 2.5 18.5)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8a862c40-c931-4ac8-b918-0c5b65a68a3d")
+	)
+	(pad "C" thru_hole circle
+		(at 0 18.5)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "42fc19dc-e470-407e-8d36-86cc16426860")
+	)
+	(pad "G0" thru_hole oval
+		(at -17.25 0)
+		(size 2.5 6.1)
+		(drill oval 1.5 5.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "588774b3-5bcc-4056-a79a-552cbb65d082")
+	)
+	(pad "G1" thru_hole oval
+		(at 17.25 0)
+		(size 2.5 6.1)
+		(drill oval 1.5 5.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "58c22272-d4bb-4cbc-bf7c-eda931027a7f")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/Liz/Documents/encoder/EC35A1520402.STEP"
+		(offset
+			(xyz 0 0 19.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
