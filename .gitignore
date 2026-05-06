@@ -22,7 +22,9 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+fp-lib-table
 **.kicad_pro.lck
+*\*-backups
 \#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
