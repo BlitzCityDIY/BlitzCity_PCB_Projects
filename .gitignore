@@ -5,6 +5,8 @@
 *.000
 *.bak
 *.bck
+*.zip
+*.exe
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups
@@ -13,13 +15,14 @@
 *-bak*
 *~
 ~*
+*~*
 _autosave-*
 \#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-~*.lck
+**.kicad_pro.lck
 \#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
@@ -32,6 +35,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+*.json
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
@@ -41,3 +45,10 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# art bitmaps
+**/utils/logos
+**/utils/JLC2KiCad_lib
+
+# production files
+**/production
